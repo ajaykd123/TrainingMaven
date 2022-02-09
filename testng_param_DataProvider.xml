@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Module1Test">		
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="uname" value="tomsmith"></parameter>
+	<parameter name="password" value="SuperSecretPassword!"></parameter>
+		<classes>
+			<class name="TestNGScripts.ParamTest" />			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
